@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.left-container {
+    position: fixed;
+    width: 450px;
+    height: 100vh;
+    background-color: #31626B;
+}
+.photo {
+    width: 50%;
+    border-radius: 100%;
+    border: black solid;
+}
+.photo-contact{
+    position: absolute;
+    top: 175px;
+    text-align: center;
+}
+.button{
+    width: 50%;
+    background-color: azure;
+    border-radius: 17px;
+    margin-bottom: 17px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 6px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.right-container{
+    position: absolute;
+    left: 450px;
+}
+.top-bar{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.title{
+    font-style: italic;
+    font-size: 1.4rem;
+}
+.list-menu{
+    float: right;
+    padding-right: 0;
+}
+.menu{
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#profile{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#about{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: ;
+}
+#experience{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#contact{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#footer{
+    padding-top: 150px;
+    text-align: center;
+}
+p{
+    line-height: 200%;
+}
